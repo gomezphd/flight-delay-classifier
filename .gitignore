@@ -1,6 +1,11 @@
+# Ignore everything in the data folder
 data/*
+
+# Allow the `2015-flight-delays` folder and its CSV files to be tracked
 !data/2015-flight-delays/
+!data/2015-flight-delays/*.csv
+
+# Other general rules
 models/
 *.ipynb_checkpoints
-*.csv
 *.json
